@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+    background-color:rgb(94, 107, 72);
+    font-family: 'Architects Daughter', sans-serif;
+    font-size: 18px;
+    color:rgb(240, 216, 221);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 5em;
+}
+
+img {
+    width: 15em;
+    border-radius: 5em;
+
+}
+
+h2 {
+    margin-right: 2em;
+}
+h4 {
+    margin-left: 1em;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+button {
+    text-align: center;
+    width: 6em;
+    height: 3em;
+    color:rgb(116, 73, 82);
+    background-color:rgb(221, 173, 156); 
+    border-radius: 1em;
+    box-shadow: rgb(174, 182, 182) 0em 1em 2em;
+
+
+}
